@@ -58,8 +58,6 @@ main {
 
 .photo {
     background-color: lightgreen;
-    width: 260px;
-    padding: 125px 0px;
     color: gray;
     text-align: center;
 }
@@ -68,4 +66,10 @@ main {
     padding: 10px 0px;
     font-size: 15px;
     font-family: cursive;
+}
+
+.date {
+    padding: 0px 0px 10px 0px;
+    font-size: 12px;
+    color: gray;
 }
