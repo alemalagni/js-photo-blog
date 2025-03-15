@@ -42,3 +42,9 @@ main {
     color: gray;
     text-align: center;
 }
+
+.caption {
+    padding: 10px 0px;
+    font-size: 15px;
+    font-family: cursive;
+}
