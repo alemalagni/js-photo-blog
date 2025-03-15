@@ -38,6 +38,7 @@ main {
 .cardPhoto {
     background-color: white;
     padding: 15px;
+    gap: 10px;
 }
 
 .photo {
