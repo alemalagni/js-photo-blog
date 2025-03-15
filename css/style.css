@@ -5,3 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Header */
+header {
+    background-image: url("img/wall");
+}
