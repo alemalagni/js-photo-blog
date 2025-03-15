@@ -33,12 +33,13 @@ main {
 .photoCollection {
     padding-top: 25px;
     justify-content: center;
+    gap: 20px;
 }
 
 .cardPhoto {
     background-color: white;
     padding: 15px;
-    gap: 10px;
+
 }
 
 .photo {
