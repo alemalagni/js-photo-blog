@@ -39,4 +39,6 @@ main {
     background-color: lightgreen;
     width: 260px;
     padding: 125px 0px;
+    color: gray;
+    text-align: center;
 }
