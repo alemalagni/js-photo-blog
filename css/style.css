@@ -34,3 +34,8 @@ main {
     color: white;
     padding: 15px;
 }
+
+.photo {
+    color: lightgreen;
+    padding: 125px 125px;
+}
