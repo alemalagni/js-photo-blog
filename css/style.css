@@ -31,12 +31,12 @@ main {
 }
 
 .cardPhoto {
-    color: white;
+    background-color: white;
     padding: 15px;
 }
 
 .photo {
-    color: lightgreen;
+    background-color: lightgreen;
     width: 260px;
     padding: 125px 0px;
 }
