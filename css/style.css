@@ -30,6 +30,15 @@ main {
     background-image: url("../img/cork.png");
 }
 
+.pin {
+    background-image: url("../img/pin.svg");
+    position: absolute;
+    padding: 20px;
+    background-repeat: no-repeat;
+    left: 43%;
+    top: -13px;
+}
+
 .photoCollection {
     padding-top: 25px;
     justify-content: center;
@@ -37,11 +46,13 @@ main {
     width: calc( 290px * 3 + 20px * 2);
     flex-wrap: wrap;
     margin: 0 auto;
+    
 }
 
 .cardPhoto {
     background-color: white;
     padding: 15px;
+    position: relative;
 
 }
 
