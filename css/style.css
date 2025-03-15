@@ -29,3 +29,8 @@
 main {
     background-image: url("../img/cork.png");
 }
+
+.cardPhoto {
+    color: white;
+    padding: 15px;
+}
