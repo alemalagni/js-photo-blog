@@ -9,7 +9,7 @@ for ( let i = 0; i < 6; i++ ) {
         photo.innerHTML = photo.innerHTML + `
         <div class="cardPhoto"> 
                 <div class="pin"></div>
-                <div class="photo"><img url=${data[i]} alt=""></div>
+                <div class="photo"><img url=${data[i].url} alt=""></div>
                 <div class="caption"><span>${data[i].title}</span></div>
             </div>
         `;
