@@ -6,6 +6,11 @@
     font-family: 'Edu Tas Beginnner', sans-serif;
 }
 
+/* Utilities classes */
+.flex {
+    display: flex;
+}
+
 /* Header */
 .title {
     background-image: url("../img/wall.png");
@@ -19,3 +24,5 @@
     text-transform: uppercase;
     font-style: italic;
 }
+
+/* Main */
