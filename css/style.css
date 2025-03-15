@@ -6,6 +6,6 @@
 }
 
 /* Header */
-header {
-    background-image: url("img/wall");
+.title {
+    background-image: url("../img/wall.png");
 }
