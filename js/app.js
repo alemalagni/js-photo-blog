@@ -1,5 +1,5 @@
 // Script
-const photo = document.getElementById("photoCollection")
+const photo = document.getElementById("photoCollection");
 
 for ( let i = 0; i < 6; i++ ) {
     fetch("https://lanciweb.github.io/demo/api/pictures/")
@@ -16,3 +16,7 @@ for ( let i = 0; i < 6; i++ ) {
         `;
     });
 }
+
+// Click Photo
+const photoclick = document.getElementsByClassName("cardPhoto");
+
