@@ -21,40 +21,47 @@ for ( let i = 0; i < 6; i++ ) {
 // Click Photo
 const overlay = document.getElementById("overlay");
 const chiudiButton = document.getElementById("chiudi");
+const openPhoto = document.getElementById("openPhoto");
 
 photo[0].addEventListener('click', function() {
         overlay.style.display = "block";
         chiudiButton.style.display = "block";
+        openPhoto.style.display = "block";
     }
 );
 
 photo[1].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
+    openPhoto.style.display = "block";
 }
 );
 
 photo[2].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
+    openPhoto.style.display = "block";
 }
 );
 
 photo[3].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
+    openPhoto.style.display = "block";
 }
 );
 
 photo[4].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
+    openPhoto.style.display = "block";
 }
 );
 
 photo[5].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
+    openPhoto.style.display = "block";
 }
 );
 
@@ -62,4 +69,5 @@ photo[5].addEventListener('click', function() {
 chiudiButton.addEventListener('click', function() {
     overlay.style.display = "none";
     chiudiButton.style.display = "none";
+    openPhoto.style.display = "none";
 })
