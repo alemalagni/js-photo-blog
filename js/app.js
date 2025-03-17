@@ -20,12 +20,11 @@ for ( let i = 0; i < 6; i++ ) {
 }
 
 // Click Photo
-const photoclick = document.getElementsByClassName("cardPhoto");
+const photoclick = document.querySelector("button")
 const overlay = document.getElementById("overlay");
 
 
-photoclick.addEventListener('click', 
-    function() {
+photoclick.addEventListener('click', function() {
         console.log("prova") //test
         overlay.style.display = "block";
     }
