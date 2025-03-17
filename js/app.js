@@ -25,7 +25,31 @@ photo[0].addEventListener('click', function() {
     }
 );
 
-photo[0].addEventListener('click', function() {
+photo[1].addEventListener('click', function() {
+    overlay.style.display = "block";
+    chiudiButton.style.display = "block";
+}
+);
+
+photo[2].addEventListener('click', function() {
+    overlay.style.display = "block";
+    chiudiButton.style.display = "block";
+}
+);
+
+photo[3].addEventListener('click', function() {
+    overlay.style.display = "block";
+    chiudiButton.style.display = "block";
+}
+);
+
+photo[4].addEventListener('click', function() {
+    overlay.style.display = "block";
+    chiudiButton.style.display = "block";
+}
+);
+
+photo[5].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
 }
