@@ -13,9 +13,12 @@
 /* Overlay */
 #overlay {
     width: 100vw;
-    padding-bottom: 100vw;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
     display: none;
+    background-color: black;
+    z-index: 2;
+    opacity: 45%;
 }
 
 /* Header */
