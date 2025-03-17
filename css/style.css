@@ -15,6 +15,7 @@
     width: 100vw;
     padding-bottom: 100vw;
     position: absolute;
+    display: none;
 }
 
 /* Header */
@@ -59,7 +60,6 @@ main {
     background-color: white;
     padding: 15px;
     position: relative;
-
 }
 
 .photo {
