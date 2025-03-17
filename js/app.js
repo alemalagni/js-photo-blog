@@ -30,3 +30,9 @@ photo[0].addEventListener('click', function() {
     chiudiButton.style.display = "block";
 }
 );
+
+// Chiudi Button
+chiudiButton.addEventListener('click', function() {
+    overlay.style.display = "none";
+    chiudiButton.style.display = "none";
+})
