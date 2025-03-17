@@ -16,12 +16,14 @@ for ( let i = 0; i < 6; i++ ) {
 }
 
 // Click Photo
-const button = document.querySelector("button")
 const overlay = document.getElementById("overlay");
 
-
-button.addEventListener('click', function() {
-        console.log("prova") //test
+photo[0].addEventListener('click', function() {
         overlay.style.display = "block";
     }
+);
+
+photo[0].addEventListener('click', function() {
+    overlay.style.display = "block";
+}
 );
