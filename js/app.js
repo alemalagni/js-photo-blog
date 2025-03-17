@@ -37,6 +37,9 @@ photo[1].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
     openPhoto.style.display = "block";
+    openPhoto.innerHTML = ` 
+        <img src="${photoLink[1]}" alt="" style="width:100%"> 
+        `;
 }
 );
 
@@ -44,6 +47,9 @@ photo[2].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
     openPhoto.style.display = "block";
+    openPhoto.innerHTML = ` 
+        <img src="${photoLink[2]}" alt="" style="width:100%"> 
+        `;
 }
 );
 
@@ -51,6 +57,9 @@ photo[3].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
     openPhoto.style.display = "block";
+    openPhoto.innerHTML = ` 
+        <img src="${photoLink[3]}" alt="" style="width:100%"> 
+        `;
 }
 );
 
@@ -58,6 +67,9 @@ photo[4].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
     openPhoto.style.display = "block";
+    openPhoto.innerHTML = ` 
+        <img src="${photoLink[4]}" alt="" style="width:100%"> 
+        `;
 }
 );
 
@@ -65,6 +77,9 @@ photo[5].addEventListener('click', function() {
     overlay.style.display = "block";
     chiudiButton.style.display = "block";
     openPhoto.style.display = "block";
+    openPhoto.innerHTML = ` 
+        <img src="${photoLink[5]}" alt="" style="width:100%"> 
+        `;
 }
 );
 
