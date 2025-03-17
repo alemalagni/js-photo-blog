@@ -17,13 +17,16 @@ for ( let i = 0; i < 6; i++ ) {
 
 // Click Photo
 const overlay = document.getElementById("overlay");
+const chiudiButton = document.getElementById("chiudi");
 
 photo[0].addEventListener('click', function() {
         overlay.style.display = "block";
+        chiudiButton.style.display = "block";
     }
 );
 
 photo[0].addEventListener('click', function() {
     overlay.style.display = "block";
+    chiudiButton.style.display = "block";
 }
 );
