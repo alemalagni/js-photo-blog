@@ -18,7 +18,7 @@
     display: none;
     background-color: black;
     z-index: 1;
-    opacity: 45%;
+    opacity: 75%;
 }
 
 #chiudi {
@@ -39,7 +39,7 @@
     height: 500px;
     font-size: 20px;
     left: calc( 50% - 250px );
-    top: 30%;
+    top: 20%;
 }
 
 /* Header */
