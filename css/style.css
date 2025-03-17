@@ -27,8 +27,19 @@
     position: fixed;
     padding: 10px 15px;
     font-size: 20px;
-    left: 45%;
+    left: calc( 50% - (90.7px / 2));
     top: 10%;
+}
+
+#openPhoto {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+    left: calc( 50% - 250px );
+    top: 30%;
 }
 
 /* Header */
