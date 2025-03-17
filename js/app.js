@@ -26,6 +26,7 @@ const overlay = document.getElementById("overlay");
 
 photoclick.addEventListener('click', 
     function() {
+        console.log("prova") //test
         overlay.style.display = "block";
     }
 );
