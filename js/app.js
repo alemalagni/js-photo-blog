@@ -1,5 +1,6 @@
 // Script
 const photo = document.getElementsByClassName("cardPhoto");
+const photoLink = [];
 
 for ( let i = 0; i < 6; i++ ) {
     fetch("https://lanciweb.github.io/demo/api/pictures/")
@@ -12,6 +13,8 @@ for ( let i = 0; i < 6; i++ ) {
                 <div class="caption"><span>${data[i].title}</span></div>
                 <div class="caption date"><span>${data[i].date}</span></div>
         `;
+
+        photoLink.push(data[i].url)
     });
 }
 
