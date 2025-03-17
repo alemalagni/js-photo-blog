@@ -17,8 +17,18 @@
     position: fixed;
     display: none;
     background-color: black;
-    z-index: 2;
+    z-index: 1;
     opacity: 45%;
+}
+
+#chiudi {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    padding: 10px 15px;
+    font-size: 20px;
+    left: 45%;
+    top: 10%;
 }
 
 /* Header */
