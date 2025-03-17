@@ -57,6 +57,8 @@ main {
 }
 
 .cardPhoto {
+    border: 0px;
+    text-align: start;
     background-color: white;
     padding: 15px;
     position: relative;
