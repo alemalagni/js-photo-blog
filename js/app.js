@@ -1,3 +1,12 @@
+// cardPhoto generator
+const photoCollection = document.getElementById("photoCollection");
+
+for ( let i = 0; i < 6; i++ ) {
+    photoCollection.innerHTML = photoCollection.innerHTML + `
+    <div><button class="cardPhoto"></button></div>
+    `
+};
+
 // Script
 const photo = document.getElementsByClassName("cardPhoto");
 const photoLink = [];
