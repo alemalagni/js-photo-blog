@@ -7,8 +7,8 @@ for ( let i = 0; i < 6; i++ ) {
     .then( data => {
 
         photo.innerHTML = photo.innerHTML + `
-        <div class="cardPhoto" id="${i+1}">
-            <button class="linkPhoto"> 
+        <div id="${i+1}">
+            <button class="cardPhoto"> 
                 <div class="pin"></div>
                 <div class="photo"><img src="${data[i].url}" alt="" style="width: 260px; display: block;"></div>
                 <div class="caption"><span>${data[i].title}</span></div>
