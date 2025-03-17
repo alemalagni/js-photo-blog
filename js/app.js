@@ -8,12 +8,12 @@ for ( let i = 0; i < 6; i++ ) {
 
         photo.innerHTML = photo.innerHTML + `
         <div class="cardPhoto" id="${i+1}">
-            <a class="linkPhoto"> 
+            <button class="linkPhoto"> 
                 <div class="pin"></div>
                 <div class="photo"><img src="${data[i].url}" alt="" style="width: 260px; display: block;"></div>
                 <div class="caption"><span>${data[i].title}</span></div>
                 <div class="caption date"><span>${data[i].date}</span></div>
-            </a>
+            </button>
         </div>
         `;
     });
