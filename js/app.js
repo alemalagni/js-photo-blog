@@ -27,6 +27,9 @@ photo[0].addEventListener('click', function() {
         overlay.style.display = "block";
         chiudiButton.style.display = "block";
         openPhoto.style.display = "block";
+        openPhoto.innerHTML = ` 
+        <img src="${photoLink[0]}" alt="" style="width:100%"> 
+        `;
     }
 );
 
