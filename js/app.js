@@ -7,7 +7,7 @@ for ( let i = 0; i < 6; i++ ) {
     .then( data => {
 
         photo.innerHTML = photo.innerHTML + `
-        <div id="${i+1}">
+        <div>
             <button class="cardPhoto"> 
                 <div class="pin"></div>
                 <div class="photo"><img src="${data[i].url}" alt="" style="width: 260px; display: block;"></div>
@@ -20,11 +20,11 @@ for ( let i = 0; i < 6; i++ ) {
 }
 
 // Click Photo
-const photoclick = document.querySelector("button")
+const button = document.querySelector("button")
 const overlay = document.getElementById("overlay");
 
 
-photoclick.addEventListener('click', function() {
+button.addEventListener('click', function() {
         console.log("prova") //test
         overlay.style.display = "block";
     }
