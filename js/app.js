@@ -20,3 +20,8 @@ for ( let i = 0; i < 6; i++ ) {
 // Click Photo
 const photoclick = document.getElementsByClassName("cardPhoto");
 
+photoclick.addEventListener('click', 
+    function() {
+        //
+    }
+)
